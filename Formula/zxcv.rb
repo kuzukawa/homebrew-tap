@@ -1,25 +1,25 @@
 class Zxcv < Formula
   desc "CLI that turns natural language into shell one-liner commands using an LLM."
   homepage "https://github.com/kuzukawa/zxcv"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.1/zxcv-aarch64-apple-darwin.tar.xz"
-      sha256 "8e548780de2fa28dc7fe15fbdf9086f63c954f5bf691c38363f1c300a19b2f68"
+      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.2/zxcv-aarch64-apple-darwin.tar.xz"
+      sha256 "91a684bf13d07742333c9b77ebf7af8ad4290dd7da571f36f7490948956b65e3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.1/zxcv-x86_64-apple-darwin.tar.xz"
-      sha256 "b158a2ff4868e73392d6c33a4e53c3b9152475447653cf318f1546c1be06358e"
+      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.2/zxcv-x86_64-apple-darwin.tar.xz"
+      sha256 "f982c44365e10baf24d6a1f9b3ad440bd0e0db30add7532b9d3f0f94432af56f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.1/zxcv-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a53d4915e30d2c7a4c8939c8e874bee44dacc7cfb97ec261303adeee87839d25"
+      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.2/zxcv-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "2f888f9e382ed70ef912cdfa2ceea0e52e2822e10b6a16bea6f42d9d570a5531"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.1/zxcv-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9c4291e3b936019f4f178a1996967dfa74a55eb3475ca5f53fece97fa48cda4d"
+      url "https://github.com/kuzukawa/zxcv/releases/download/v0.1.2/zxcv-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c62b83115b8e1b5b193844a0fa0487fadee8e01f3b35a3def14f7cb66cc81fa3"
     end
   end
   license "MIT"
